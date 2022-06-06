@@ -1,7 +1,7 @@
 @font-face {
   font-family: "PT Sans";
   src: url("fonts/ptsans-400.woff2") format("woff2"),
-  url("fonts/ptsans-700.woff2") format("woff2");
+    url("fonts/ptsans-700.woff2") format("woff2");
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -14,7 +14,7 @@ body {
   color: #000000;
 }
 
-.button {
+.button-sign-up {
   font-family: inherit;
   font-size: 20px;
   line-height: 36px;
@@ -25,15 +25,8 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   background: #756157;
-border-radius: 4px;
-color: #FFFFFF;
-background: #756157;
-border: 0px;
-}
-
-.button-two {
-background: #82B3D3;
-border-radius: 0px 10px 10px 0px;
+  border-radius: 4px;
+  border: 0px;
 }
 
 .title {
@@ -43,9 +36,8 @@ border-radius: 0px 10px 10px 0px;
 
 .page-header {
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
-
 
 .navigation-link {
   font-size: 20px;
@@ -57,47 +49,57 @@ border-radius: 0px 10px 10px 0px;
   color: inherit;
 }
 
-.button-here {
+.button-sign-up.button {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
-  color: inherit; 
+  color: inherit;
+  color: #ffffff;
 }
 
 .main-index {
-	color: #333333;
-  background-color:  #FFFFFF;
+  color: #333333;
+  background-color: #ffffff;
 }
 
-.intro {background-image: url("../images/background-welcome.jpg");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-}
-	
-.welcome {padding-left: 371px;
+.intro {
+  background-image: url("../images/background-welcome.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
-.compare, .search, .appointment {text-align:center;
+.introducing {
+  padding-left: 371px;
 }
 
-.compare-one, .interest, .subscribe {
+.annotation,
+.search,
+.appointment {
+  text-align: center;
+}
+
+.sedona-annotation,
+.interest,
+.subscribe {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.compare-two, .interest-description, .subscribe-description {
+.sedona-short-annotation,
+.interest-description,
+.subscribe-description {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
 }
 
-
-.advantages-title, .sub-advantages-title {
+.advantages-title,
+.sub-advantages-title {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
@@ -109,47 +111,54 @@ border-radius: 0px 10px 10px 0px;
   color: #333333;
 }
 
-.subscribe, .subscribe-description, .advantages-title-white, .advantages-description-white {color: #FFFFFF;}
-
+.subscribe,
+.subscribe-description,
+.advantages-title-white,
+.advantages-description-white {
+  color: #ffffff;
+}
 
 .blue {
-background-color: #82B3D3;
- text-align: center;
- background-size: 100% auto;
-
+  background-color: #82b3d3;
+  text-align: center;
+  background-size: 100% auto;
 }
 
 .sedona-img {
-  display: block;}
+  display: block;
+}
 
 .lightgray {
-background-size: 100% auto;
-background-color: rgba(131, 179, 211, 0.12);
- text-align: center;
-
+  background-size: 100% auto;
+  background-color: rgba(131, 179, 211, 0.12);
+  text-align: center;
 }
 .gray {
-background-size: 100% auto;
-background: rgba(131, 179, 211, 0.2);
- text-align: center;
- 
+  background-size: 100% auto;
+  background: rgba(131, 179, 211, 0.2);
+  text-align: center;
 }
 .white {
-background-size: 100% auto;
-background: #FFFFFF;
- text-align: center;
-
+  background-size: 100% auto;
+  background: #ffffff;
+  text-align: center;
 }
 
-.appointment {background-image: url("../images/background-appointment.jpg");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    }
+.appointment {
+  background-image: url("../images/background-appointment.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.button-sign-up.button-submit {
+  color: #ffffff;
+
+  background: #82b3d3;
+  border-radius: 0px 10px 10px 0px;
+}
 
 .footer-contacts {
-font-size: 40px;
-line-height: 40px;
-text-transform: uppercase;
-text-align: center;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
 }
-   
