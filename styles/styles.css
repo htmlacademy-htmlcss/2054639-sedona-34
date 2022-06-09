@@ -6,12 +6,18 @@
   font-display: swap;
   font-weight: 400;
 }
+html {
+  height: 100%;
+}
 
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
   color: #000000;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 .button-sign-up {
@@ -39,6 +45,29 @@ body {
   background-color: #ffffff;
 }
 
+.navigation {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  width: 139px;
+  margin-right: auto;
+}
+
+.navigation-list {
+  width: 390px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-user {
+  max-width: 300px;
+  margin-left: auto;
+}
+
 .navigation-link {
   font-size: 20px;
   line-height: 26px;
@@ -60,9 +89,18 @@ body {
   color: #ffffff;
 }
 
+.main-container {
+  flex-grow: 1;
+}
+
 .main-index {
   color: #333333;
   background-color: #ffffff;
+}
+
+.page-container {
+  width: 1060px;
+  margin: 0 auto;
 }
 
 .intro {
@@ -72,7 +110,8 @@ body {
 }
 
 .introducing {
-  padding-left: 371px;
+  display: block;
+  margin: 0 auto;
 }
 
 .annotation,
@@ -105,6 +144,21 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
+
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+}
+
+.sub-advantages-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
 .advantages-description {
   font-size: 18px;
   line-height: 21px;
@@ -120,8 +174,15 @@ body {
 
 .blue {
   background-color: #82b3d3;
-  text-align: center;
+
   background-size: 100% auto;
+  display: flex;
+}
+
+.blue-small {
+  text-align: center;
+  width: 400px;
+  height: 384px;
 }
 
 .sedona-img {
@@ -132,16 +193,27 @@ body {
   background-size: 100% auto;
   background-color: rgba(131, 179, 211, 0.12);
   text-align: center;
+  width: 400px;
+  height: 384px;
 }
 .gray {
   background-size: 100% auto;
   background: rgba(131, 179, 211, 0.2);
   text-align: center;
+  width: 400px;
+  height: 384px;
 }
 .white {
   background-size: 100% auto;
   background: #ffffff;
   text-align: center;
+  width: 400px;
+  height: 384px;
+}
+
+.search {
+  height: 325px;
+  padding-top: 91px;
 }
 
 .appointment {
@@ -156,9 +228,26 @@ body {
   border-radius: 0px 10px 10px 0px;
 }
 
+.page-footer-container {
+  display: flex;
+  width: 1060px;
+  height: 75px;
+  margin: 0 auto;
+}
+
+.social {
+  width: 200px;
+  margin-right: 130px;
+}
 .footer-contacts {
   font-size: 40px;
   line-height: 40px;
   text-transform: uppercase;
   text-align: center;
+  width: 360px;
+  margin-right: 200px;
+  padding-top: 45px;
+}
+.logo-html {
+  padding-top: 45px;
 }

@@ -7,14 +7,17 @@
   </head>
   <body>
     <header class="page-header">
-      <img
-        class="logo"
-        src="images/logo.svg"
-        width="139"
-        height="70"
-        alt="Логотип Седона"
-      />
+     
+      
       <nav class="navigation">
+        <img
+      class="logo"
+      src="images/logo.svg"
+      width="139"
+      height="70"
+      alt="Логотип Седона"
+    />
+        
         <ul class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link" href="#">Главное</a>
@@ -26,7 +29,7 @@
             <a class="navigation-link" href="#">Гостиницы</a>
           </li>
         </ul>
-        <ul class="navigation-user">
+        <ul class="navigation-list navigation-user">
           <li class="navigation-user-item">
             <a class="navigation-link" href="#">
               <span class="visually-hidden"> Поиск </span>
@@ -43,7 +46,8 @@
         </ul>
       </nav>
     </header>
-    <main class="main-index">
+    <main class="main-container main-index">
+      <div class="page-container">
       <section class="intro">
         <h1 class="visually-hidden">Седона</h1>
         <img
@@ -67,13 +71,14 @@
         <ul class="advantages-list">
           <li class="advantages-item">
             <div class="blue">
+              <div class="blue-small">
               <h3 class="advantages-title advantages-title-white">
                 Настоящий городок
               </h3>
               <p class="advantages-description advantages-description-white">
                 — №1 —<br /><br />Седона — не аттракцион для туристов, там течёт
                 своя жизнь
-              </p>
+              </p></div>
               <img
                 class="sedona-img"
                 src="images/advantages/country.jpg"
@@ -145,6 +150,7 @@
                 width="800"
                 height="384"
               />
+              <div class="blue-small">
 
               <h3 class="advantages-title advantages-title-white">
                 Там есть мост дьявола
@@ -152,11 +158,12 @@
               <p class="advantages-description advantages-description-white">
                 — №2 —<br /><br />Да, по нему можно пройти! Если вы осмелитесь,
                 разумеется
-              </p>
+              </p></div>
             </div>
           </li>
-
+          
           <li class="advantages-item">
+           
             <div class="lightgray">
               <h3 class="advantages-title">Небольшая площадь</h3>
               <p class="advantages-description">
@@ -182,6 +189,7 @@
                 — №5 —<br /><br />Большинство едет в Гранд Каньон и толпится там
               </p>
             </div>
+          
           </li>
         </ul>
       </section>
@@ -220,8 +228,10 @@
           </button>
         </form>
       </section>
+    </div>
     </main>
     <footer class="page-footer">
+      <div class="page-footer-container">
       <section class="social">
         <h2 class="visually-hidden">Социальные сети</h2>
         <ul class="footer-social-list">
@@ -254,6 +264,7 @@
           height="32.9"
         />
       </div>
+    </div>
     </footer>
   </body>
 </html>
