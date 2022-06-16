@@ -145,6 +145,10 @@ body {
   margin: 0;
 }
 
+.sub-advantages-title {
+  margin-top: 30px;
+}
+
 .advantages-list {
   margin: 0;
   padding: 0;
@@ -181,6 +185,10 @@ body {
 .advantages-bg-blue-small {
   text-align: center;
   min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .advantages-bg-sedona {
@@ -193,6 +201,10 @@ body {
   text-align: center;
   max-width: 400px;
   min-height: 384px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .advantages-bg-gray {
@@ -201,6 +213,10 @@ body {
   text-align: center;
   max-width: 400px;
   min-height: 384px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .advantages-bg-white {
   background-size: 100% auto;
@@ -208,6 +224,10 @@ body {
   text-align: center;
   max-width: 400px;
   min-height: 384px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .search {
