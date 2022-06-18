@@ -20,6 +20,17 @@ body {
   min-height: 100%;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .button-sign-up {
   font-family: inherit;
   font-size: 20px;
@@ -33,6 +44,9 @@ body {
   background: #756157;
   border-radius: 4px;
   border: 0;
+  width: 574px;
+  height: 60px;
+  margin-bottom: 30px;
 }
 
 .title {
@@ -47,20 +61,24 @@ body {
 
 .navigation {
   display: flex;
-  width: 1060px;
+  width: 1200px;
   margin: 0 auto;
 }
 
 .logo {
   display: block;
   width: 139px;
-  margin-right: auto;
+  padding-left: 70px;
+  padding-right: 47px;
 }
 
 .navigation-list {
-  width: 390px;
+  width: 490px;
   margin: 0;
   padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .navigation-user {
@@ -76,6 +94,14 @@ body {
   text-decoration: none;
   text-align: center;
   color: inherit;
+  padding-right: 34px;
+  padding-top: 20px;
+  display: block;
+}
+
+.navigation-user .navigation-link {
+  min-width: 16px;
+  min-height: 22px;
 }
 
 .button-sign-up.button {
@@ -128,12 +154,44 @@ body {
   text-transform: uppercase;
 }
 
+.interest {
+  padding-top: 91px;
+}
+.interest-description {
+  padding-right: 304px;
+  padding-bottom: 60px;
+  padding-left: 304px;
+}
+
+.sedona-annotation {
+  padding-top: 63px;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+.sedona-short-annotation {
+  padding-bottom: 90px;
+}
 .sedona-short-annotation,
 .interest-description,
 .subscribe-description {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
+}
+
+.subscribe {
+  padding-top: 94px;
+}
+.subscribe-description {
+  padding-right: 362px;
+  padding-bottom: 26px;
+  padding-left: 362px;
+}
+
+.yourmail {
+  width: 600px;
+  height: 60px;
+  border-radius: 10px 0 0 10px;
 }
 
 .advantages-title,
@@ -146,7 +204,17 @@ body {
 }
 
 .sub-advantages-title {
-  margin-top: 30px;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.advantages-description {
+  padding-left: 85px;
+  padding-right: 85px;
+}
+.advantages-description-number {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .advantages-list {
@@ -154,18 +222,21 @@ body {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  list-style-type: none;
 }
 
 .sub-advantages-list {
   margin: 0;
   padding: 0;
   display: flex;
+  list-style-type: none;
 }
 
 .advantages-description {
   font-size: 18px;
   line-height: 21px;
   color: #333333;
+  margin: 0;
 }
 
 .subscribe,
@@ -175,16 +246,22 @@ body {
   color: #ffffff;
 }
 
+.advantages-title-white {
+  padding-top: 92px;
+  padding-bottom: 30px;
+}
+.advantages-description-text {
+  padding: 30px 85px 92px 85px;
+}
+
 .advantages-bg-blue {
   background-color: #82b3d3;
-
   background-size: 100% auto;
   display: flex;
 }
 
 .advantages-bg-blue-small {
   text-align: center;
-  min-width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -230,11 +307,6 @@ body {
   align-items: center;
 }
 
-.search {
-  height: 325px;
-  padding-top: 91px;
-}
-
 .appointment {
   background-image: url("../images/background-appointment.jpg");
   background-size: 100% auto;
@@ -244,14 +316,16 @@ body {
   color: #ffffff;
 
   background: #82b3d3;
-  border-radius: 0 px 10px 10px 0 px;
+  border-radius: 0 10px 10px 0;
   border: 0;
+  width: 200px;
+  height: 60px;
 }
 
 .page-footer-container {
   display: flex;
-  width: 1060px;
-  height: 75px;
+  width: 1200px;
+  height: 120px;
   margin: 0 auto;
 }
 
@@ -259,6 +333,32 @@ body {
   width: 200px;
   margin-right: 130px;
 }
+
+.footer-social-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.footer-social-item {
+  padding-top: 58px;
+  width: 56px;
+  height: 44px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.footer-social-item:nth-child(3n) {
+  margin-right: 0;
+}
+.footer-social-list .footer-social-item {
+  min-width: 18px;
+  min-height: 15px;
+}
+
 .footer-contacts {
   font-size: 40px;
   line-height: 40px;
@@ -270,4 +370,5 @@ body {
 }
 .logo-html {
   padding-top: 45px;
+  margin-left: 150px;
 }
