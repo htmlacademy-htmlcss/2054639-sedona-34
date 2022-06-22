@@ -104,20 +104,17 @@ body {
   min-height: 22px;
 }
 
-.button-search {
-  font-family: inherit;
-  background: #756157;
-  border-radius: 4px;
-  border: 0;
+.button-sign-up.button-search {
+  display: inline-block;
   font-size: 16px;
-  line-height: 20px;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
-  color: #ffffff;
+  line-height: 40px;
   width: 160px;
   height: 37px;
+  margin: 0;
+}
+
+.navigation-user-item {
+  padding-top: 10px;
 }
 
 .main-container {
