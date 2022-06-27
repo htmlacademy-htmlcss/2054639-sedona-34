@@ -46,7 +46,7 @@ body {
   border: 0;
   width: 574px;
   height: 60px;
-  margin-bottom: 30px;
+  margin-bottom: 90px;
 }
 
 .title {
@@ -73,7 +73,7 @@ body {
 }
 
 .navigation-list {
-  width: 490px;
+  width: 390px;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -104,14 +104,17 @@ body {
   min-height: 22px;
 }
 
-.button-sign-up.button {
+.button-sign-up.button-search {
+  display: inline-block;
   font-size: 16px;
-  line-height: 20px;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
-  color: #ffffff;
+  line-height: 40px;
+  width: 160px;
+  height: 37px;
+  margin: 0;
+}
+
+.navigation-user-item {
+  padding-top: 10px;
 }
 
 .main-container {
@@ -159,7 +162,7 @@ body {
 }
 .interest-description {
   padding-right: 304px;
-  padding-bottom: 60px;
+  padding-bottom: 56px;
   padding-left: 304px;
 }
 
@@ -192,6 +195,7 @@ body {
   width: 600px;
   height: 60px;
   border-radius: 10px 0 0 10px;
+  border: 0;
 }
 
 .advantages-title,
@@ -203,40 +207,80 @@ body {
   margin: 0;
 }
 
-.sub-advantages-title {
-  margin-top: 20px;
-  padding-top: 30px;
+.advantages-title {
+  padding-top: 92px;
   padding-bottom: 30px;
 }
+.advantages-description-text,
 .advantages-description {
-  padding-left: 85px;
-  padding-right: 85px;
-}
-.advantages-description-number {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-right: 85px;
+  padding-left: 85px;
+}
+.advantages-img {
+  padding-top: 80px;
+}
+.sub-advantages-title {
+  padding-top: 30px;
 }
 
 .advantages-list {
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
   list-style-type: none;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 384px 384px 384px 384px;
 }
 
-.sub-advantages-list {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  list-style-type: none;
+.advantages-bg-blue {
+  text-align: center;
+  background-size: 100% auto;
+  background-color: #82b3d3;
+}
+
+.advantages-bg-lightgray {
+  background-size: 100% auto;
+  background-color: rgba(131, 179, 211, 0.12);
+  text-align: center;
+}
+
+.advantages-bg-gray {
+  background-size: 100% auto;
+  background: rgba(131, 179, 211, 0.2);
+  text-align: center;
+}
+.advantages-bg-white {
+  background-size: 100% auto;
+  background: #ffffff;
+  text-align: center;
+}
+
+.advantages-bg-sedona {
+  grid-column: 2 / span 2;
+  grid-row: 1 / 2;
+}
+.advantages-appartments {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+.advantages-food {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+.advantages-souvenirs {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+.advantages-bg-bridge {
+  grid-column: 1 / span 2;
+  grid-row: 3 / 4;
 }
 
 .advantages-description {
   font-size: 18px;
   line-height: 21px;
   color: #333333;
-  margin: 0;
 }
 
 .subscribe,
@@ -246,75 +290,22 @@ body {
   color: #ffffff;
 }
 
-.advantages-title-white {
-  padding-top: 92px;
-  padding-bottom: 30px;
-}
-.advantages-description-text {
-  padding: 30px 85px 92px 85px;
-}
-
-.advantages-bg-blue {
-  background-color: #82b3d3;
-  background-size: 100% auto;
-  display: flex;
-}
-
-.advantages-bg-blue-small {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.advantages-bg-sedona {
-  display: block;
-}
-
-.sub-advantages-item {
-  background-size: 100% auto;
-  background-color: rgba(131, 179, 211, 0.12);
-  text-align: center;
-  max-width: 400px;
-  min-height: 384px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.advantages-bg-gray {
-  background-size: 100% auto;
-  background: rgba(131, 179, 211, 0.2);
-  text-align: center;
-  max-width: 400px;
-  min-height: 384px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.advantages-bg-white {
-  background-size: 100% auto;
-  background: #ffffff;
-  text-align: center;
-  max-width: 400px;
-  min-height: 384px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .appointment {
   background-image: url("../images/background-appointment.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
+
+.appointment-form {
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
+  padding-bottom: 90px;
+}
+
 .button-sign-up.button-submit {
   color: #ffffff;
-
+  margin: 0;
   background: #82b3d3;
   border-radius: 0 10px 10px 0;
   border: 0;
