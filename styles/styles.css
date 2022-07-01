@@ -31,6 +31,19 @@ body {
   overflow: hidden;
 }
 
+.navigation-user .navigation-user-item:nth-child(1) .navigation-link {
+  background-image: url("../images/search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navigation-user .navigation-user-item:nth-child(2) .navigation-link {
+  background-image: url("../images/favorities.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-right: 60px;
+}
+
 .button-sign-up {
   font-family: inherit;
   font-size: 20px;
@@ -47,6 +60,8 @@ body {
   width: 574px;
   height: 60px;
   margin-bottom: 90px;
+  box-sizing: border-box;
+  padding: 12px 15px 12px 15px;
 }
 
 .title {
@@ -99,6 +114,10 @@ body {
   display: block;
 }
 
+.navigation-link.navigation-user-link {
+  padding-right: 10px;
+}
+
 .navigation-user .navigation-link {
   min-width: 16px;
   min-height: 22px;
@@ -107,10 +126,12 @@ body {
 .button-sign-up.button-search {
   display: inline-block;
   font-size: 16px;
-  line-height: 40px;
+  line-height: 20px;
   width: 160px;
   height: 37px;
   margin: 0;
+  box-sizing: border-box;
+  padding: 9px 15px 8px 15px;
 }
 
 .navigation-user-item {
@@ -200,6 +221,7 @@ body {
 
 .advantages-title,
 .sub-advantages-title {
+  font-family: "PT Sans", sans-serif;
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
@@ -209,13 +231,19 @@ body {
 
 .advantages-title {
   padding-top: 92px;
-  padding-bottom: 30px;
 }
 .advantages-description-text,
 .advantages-description {
-  padding-top: 30px;
+  font-weight: 400;
   padding-right: 85px;
   padding-left: 85px;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 0;
+}
+
+.advantages-description-text {
+  padding-top: 30px;
 }
 .advantages-img {
   padding-top: 80px;
@@ -231,6 +259,11 @@ body {
   display: grid;
   grid-template-columns: 400px 400px 400px;
   grid-template-rows: 384px 384px 384px 384px;
+}
+h3 {
+  padding-right: 85px;
+  padding-left: 85px;
+  padding-bottom: 10px;
 }
 
 .advantages-bg-blue {
@@ -287,6 +320,7 @@ body {
 .subscribe-description,
 .advantages-title-white,
 .advantages-description-white {
+  font-family: "PT Sans", sans-serif;
   color: #ffffff;
 }
 
@@ -348,6 +382,24 @@ body {
 .footer-social-list .footer-social-item {
   min-width: 18px;
   min-height: 15px;
+}
+
+.footer-social-list .footer-social-item:nth-child(1) .footer-social-vk {
+  background-image: url("../images/social-vk.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer-social-list .footer-social-item:nth-child(2) .footer-social-telegram {
+  background-image: url("../images/social-telegram.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer-social-list .footer-social-item:nth-child(3) .footer-social-youtube {
+  background-image: url("../images/social-youtube.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .footer-contacts {
