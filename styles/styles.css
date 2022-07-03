@@ -64,6 +64,33 @@ body {
   padding: 12px 15px 12px 15px;
 }
 
+.button-sign-up:hover {
+  background-color: #615048;
+}
+.button-sign-up:focus {
+  background-color: #615048;
+}
+.button-sign-up:active {
+  background-color: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
+.button-sign-up:disabled:hover {
+  background-color: #e5e5e5;
+}
+.button-sign-up.button-submit:hover {
+  background-color: #68a2ca;
+}
+.button-sign-up.button-submit:focus {
+  background-color: #68a2ca;
+}
+.button-sign-up.button-submit:active {
+  background-color: #82b3d3;
+  color: rgba(255, 255, 255, 0.3);
+}
+.button-sign-up.button-submit:disabled:hover {
+  background-color: #e5e5e5;
+}
+
 .title {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
@@ -121,6 +148,16 @@ body {
 .navigation-user .navigation-link {
   min-width: 16px;
   min-height: 22px;
+}
+
+.navigation-link-current::before {
+  position: absolute;
+  right: 34px;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  background-color: black;
+  content: "";
 }
 
 .button-sign-up.button-search {
@@ -356,7 +393,9 @@ h3 {
 
 .social {
   width: 200px;
-  margin-right: 130px;
+  margin: 0;
+  padding-left: 70px;
+  padding-right: 150px;
 }
 
 .footer-social-list {
@@ -368,11 +407,9 @@ h3 {
 }
 
 .footer-social-item {
-  padding-top: 58px;
-  width: 56px;
-  height: 44px;
-  margin-right: 8px;
-  margin-bottom: 8px;
+  padding-top: 38px;
+  padding-right: 26px;
+  padding-bottom: 48px;
   display: block;
 }
 
@@ -384,34 +421,34 @@ h3 {
   min-height: 15px;
 }
 
-.footer-social-list .footer-social-item:nth-child(1) .footer-social-vk {
-  background-image: url("../images/social-vk.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.footer-social-list .footer-social-item:nth-child(2) .footer-social-telegram {
-  background-image: url("../images/social-telegram.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.footer-social-list .footer-social-item:nth-child(3) .footer-social-youtube {
-  background-image: url("../images/social-youtube.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .footer-contacts {
   font-size: 40px;
   line-height: 40px;
   text-transform: uppercase;
   text-align: center;
   width: 360px;
-  margin-right: 200px;
-  padding-top: 45px;
+}
+
+.contacts-phone {
+  padding-top: 30px;
+  display: inline-block;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.contacts-phone:hover {
+  color: #756157;
+}
+.contacts-phone:focus {
+  color: #756157;
+}
+.contacts-phone:active {
+  color: rgba(117, 97, 87, 0.3);
 }
 .logo-html {
   padding-top: 45px;
-  margin-left: 150px;
+  padding-left: 200px;
 }
