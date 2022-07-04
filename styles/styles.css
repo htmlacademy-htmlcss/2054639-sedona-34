@@ -139,6 +139,7 @@ body {
   padding-right: 34px;
   padding-top: 20px;
   display: block;
+  position: relative;
 }
 
 .navigation-link.navigation-user-link {
@@ -154,9 +155,10 @@ body {
   position: absolute;
   right: 34px;
   bottom: 0;
+top: 69px;
   left: 0;
-  height: 4px;
-  background-color: black;
+  height: 2px;
+  background-color: #756257;
   content: "";
 }
 
