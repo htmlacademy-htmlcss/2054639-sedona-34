@@ -312,5 +312,92 @@
         </div>
       </div>
     </footer>
+
+    <div class="modal-container modal-container-close">
+      <div class="modal modal-search">
+        <button class="modal-close-button">
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+        <section class="modal-content">
+          <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+          <div class="search-form-sedona">
+            <form
+              class="search-form"
+              action="https://echo.htmlacademy.ru/"
+              method="post"
+            >
+              <label class="search-date" for="date-arrival">Дата Заезда:</label>
+              <input
+                class="choose-date"
+                type="text"
+                id="date-arrival"
+                name="date-arrival"
+                placeholder="27 апреля 2020"
+              />
+              <p class="promt promt-arrival">
+                Мы не можем отправить вас в прошлое
+              </p>
+              <label class="search-date" for="date-departure"
+                >Дата Выезда:</label
+              >
+              <input
+                class="choose-date"
+                type="text"
+                id="date-departure"
+                name="date-departure"
+                placeholder="1 сентября 2021"
+              />
+              <p class="promt">На эти даты есть свободные номера. Пока есть.</p>
+            </form>
+          </div>
+          <div class="add-form">
+            <form class="add-adults-form">
+              <label class="search-date adult" for="adults-form"
+                >Взрослые:</label
+              >
+
+              <input class="add" type="button" />
+              <input
+                class="add-adults-form-number"
+                type="text"
+                id="adults-form"
+                name="adults-form"
+                placeholder="2"
+              />
+              <input class="add add-plus" type="button" />
+            </form>
+
+            <form class="add-baby-form">
+              <label class="search-date adult baby" for="baby-form"
+                >Дети:</label
+              >
+
+              <span class="tooltip">
+                <div class="info-sphere" aria-labelledby="tooltip-label">i</div>
+                <span class="tooltip-text" role="tooltip" id="tooltip-label"
+                  >Укажите количество детей, которые будут с вами, возраст
+                  которых от 6 до 18 лет. Дети <br />
+                  до 6 лет размещаются <br />
+                  бесплатно.</span
+                >
+              </span>
+
+              <input class="add" type="button" />
+              <input
+                class="add-adults-form-number"
+                type="text"
+                id="baby-form"
+                name="baby-form"
+                placeholder="1"
+              />
+              <input class="add add-plus" type="button" />
+            </form>
+          </div>
+          <button class="button-sign-up button-find" type="button">
+            Найти
+          </button>
+        </section>
+      </div>
+    </div>
   </body>
 </html>
