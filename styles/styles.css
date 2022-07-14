@@ -440,6 +440,18 @@ h3 {
   min-height: 15px;
 }
 
+.footer-social-link:hover path {
+  fill: #68a2ca;
+}
+
+.footer-social-link:focus path {
+  fill: #68a2ca;
+}
+
+.footer-social-link:active path {
+  fill: rgba(104, 162, 202, 0.3);
+}
+
 .footer-contacts {
   font-size: 40px;
   line-height: 40px;
@@ -470,6 +482,18 @@ h3 {
 .logo-html {
   padding-top: 25px;
   padding-left: 230px;
+}
+
+.logo-html:hover path {
+  fill: #756157;
+}
+
+.logo-html:focus path {
+  fill: #756157;
+}
+
+.logo-html:active path {
+  fill: rgba(117, 97, 87, 0.3);
 }
 
 .modal-container {
