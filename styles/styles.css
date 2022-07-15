@@ -32,13 +32,13 @@ body {
   overflow: hidden;
 }
 
-.navigation-user .navigation-user-item:nth-child(1) .navigation-link {
+.navigation-user-item:nth-child(1) .navigation-link {
   background-image: url("../images/search.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.navigation-user .navigation-user-item:nth-child(2) .navigation-link {
+.navigation-user-item:nth-child(2) .navigation-link {
   background-image: url("../images/favorities.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -316,7 +316,6 @@ body {
   grid-template-columns: 400px 400px 400px;
   grid-template-rows: 384px 384px 384px 384px;
 }
-
 
 .advantages-bg-blue {
   text-align: center;
@@ -734,4 +733,7 @@ body {
 }
 .button-sign-up.button-find:disabled:hover {
   background-color: #e5e5e5;
+}
+.modal-container-close {
+  display: none;
 }
