@@ -569,6 +569,24 @@ body {
   background-position: right 20px bottom 50%;
 }
 
+.choose-date:hover {
+  background: #e6e6e6;
+  background-image: url("../images/calendar.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px bottom 50%;
+}
+.choose-date:focus {
+  border: 3px solid #83b3d3;
+  background: #e6e6e6;
+  background-image: url("../images/calendar.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px bottom 50%;
+}
+.choose-date:active {
+  background: #ffffff;
+  border: 2px solid #000000;
+}
+
 .choose-date::-moz-placeholder {
   color: #000000;
 }
@@ -603,6 +621,10 @@ body {
   font-size: 20px;
   line-height: 26px;
   color: #000000;
+  padding-right: 10px;
+}
+
+.search-date.search-date-arrival {
   padding-right: 15px;
 }
 .add-adults-form-number {
@@ -645,7 +667,7 @@ body {
 }
 
 .search-date.adult {
-  padding-right: 50px;
+  padding-right: 45px;
 }
 .search-date.adult.baby {
   padding-right: 50px;
@@ -726,6 +748,7 @@ body {
 }
 .button-sign-up.button-find:focus {
   background-color: #68a2ca;
+  border: 3px solid #756257;
 }
 .button-sign-up.button-find:active {
   background-color: #82b3d3;
@@ -734,6 +757,7 @@ body {
 .button-sign-up.button-find:disabled:hover {
   background-color: #e5e5e5;
 }
+
 .modal-container-close {
   display: none;
 }
