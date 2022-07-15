@@ -286,7 +286,7 @@ body {
 }
 
 .advantages-title {
-  padding-top: 92px;
+  padding: 92px 85px 10px 85px;
 }
 .advantages-description-text,
 .advantages-description {
@@ -305,7 +305,7 @@ body {
   padding-top: 80px;
 }
 .sub-advantages-title {
-  padding-top: 30px;
+  padding: 30px 85px 10px 85px;
 }
 
 .advantages-list {
@@ -316,11 +316,7 @@ body {
   grid-template-columns: 400px 400px 400px;
   grid-template-rows: 384px 384px 384px 384px;
 }
-h3 {
-  padding-right: 85px;
-  padding-left: 85px;
-  padding-bottom: 10px;
-}
+
 
 .advantages-bg-blue {
   text-align: center;
@@ -738,8 +734,4 @@ h3 {
 }
 .button-sign-up.button-find:disabled:hover {
   background-color: #e5e5e5;
-}
-
-.modal-container-close {
-  display: none;
 }
